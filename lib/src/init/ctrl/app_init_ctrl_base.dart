@@ -11,7 +11,7 @@ abstract class AppInitCtrlBase extends LinearLoadingWaitingCtrl {
   AppInitCtrlBase() : super();
 
   @mustCallSuper
-  Future<void> preinitAAsync({
+  Future<void> preinitAsync({
     List<Initializer>? initializers,
     List<AsyncInitializer>? asyncInitializers,
   }) async {
